@@ -11,6 +11,7 @@
 
 - Any kind of projects with a purpose will be accepted.
 - Modification to existing projects will be accepted here.
+- ### Make a separate folder for your project and make your changes to that folder only.
 - If possible document your project.
 - Create Issues with a proper title. 
 
