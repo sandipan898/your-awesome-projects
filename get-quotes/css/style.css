@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (max-width: 768px) {
+	.container {
+		width: auto;
+	}
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Bakcground Animation */
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.container {
+	width: 600px;
+}
+
+.blockquote {
+	padding: 25px;
+	background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid #8cdcd1;
+}
+
+.blockquoteBorder {
+	border-left-width: 10px;
+}
+
+.blockquote::before {
+	content: "\201c";
+	font-size: 100px;
+	/* color: #58c9d6; */
+	color: #288c97;
+	display: block;
+	margin-bottom: -40px;
+	margin-top: -20px;
+}
+
+.quotes {
+	font-weight: 200;
+	font-style: italic;
+	font-size: 2em;
+	line-height: 1.5;
+	margin: 0;
+	color: #0b4237;
+}
+
+.quotes:not(:last-child) {
+	margin-bottom: 1em;
+}
+
+.author {
+	font-weight: bold;
+	font-style: normal;
+	text-align: right;
+	color: #0b4237;
+}
+
+.author::before {
+	content: "\2014\0020";
+}
+
+.button {
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #8cdcd1;
+	cursor: pointer;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+#newQ {
+	font-weight: bold;
+	font-style: normal;
+	text-align: right;
+	color: #0b4237;
+}
+
+.tweet {
+	cursor: pointer;
+	float: right;
+	margin-top: -90px;
+	padding: 1rem;
+	background: rgba(255, 255, 255, 0.548);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.144);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 1rem;
+}
