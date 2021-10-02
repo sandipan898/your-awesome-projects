@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Movie App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./stylesheets/style.css">
+        
+    </head>
+    <body>
+        <a href="./search" style="text-align: center; text-decoration: none;"><h1>Home</h1></a>
+        <h1 id="searchHeading">Search Result <span style="color:grey">-></span><%=searchQuery.toUpperCase() %></h1>
+
+        <% data["results"].forEach((movie) => { %>
+            <div class="card mb-5 w-75">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2<%=movie["poster_path"] %>" alt="" class="card-img img-fluid">
+                    </div>
+    
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title"><%= movie["original_title"]%></h2>
+                            <hr>
+                            <p class="card-text"><%= movie["overview"]%></p>
+                            <hr>
+                            <br>
+                            <p class="card-text"><b>Date Published:</b><%= movie["release_date"]%></p>
+                            <p class="card-text"><b>Total Votes:</b><%= movie["vote_count"]%></p>
+                            <p class="card-text"><b>Average Rating:</b><%= movie["vote_average"]%></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       <% }) %>
+            <div class="container">
+        
+            <div class="footer">
+                <b>Made By -> </b> Rohit Ray
+        
+        </div>
+
+    </body>
+</html>
