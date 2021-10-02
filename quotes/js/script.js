@@ -4,6 +4,7 @@ const button = document.querySelector(".button");
 
 let data;
 let quotesData;
+let authorData;
 
 const showQuotes = () => {
 	let random = Math.floor(Math.random() * data.length);
@@ -11,6 +12,7 @@ const showQuotes = () => {
 	quotesData = data[random].text;
 	quotes.innerHTML = data[random].text;
 	author.innerHTML = data[random].author == null? "Anonymous" : data[random].author;
+	authorData = data[random].author == null? "Anonymous" : data[random].author;
 }
 
 async function getQuotes(){
@@ -31,6 +33,6 @@ getQuotes().then(() => {
 button.addEventListener("click", showQuotes);
 
 document.querySelector(".tweet").addEventListener("click", () => {
-	let tweetPost = `https://twitter.com/intent/tweet/?text=${quotesData}`;
+	let tweetPost = `https://twitter.com/intent/tweet/?text=${quotesData} -${authorData}`;
 	window.open(tweetPost);
 });
