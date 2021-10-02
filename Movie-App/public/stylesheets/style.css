@@ -1,0 +1,33 @@
+#searchh1{
+    margin-top: 20%;
+}
+body{
+    background-color: antiquewhite;
+    
+}
+.card title{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.card{
+    margin-left: 12.5%;
+}
+.card-img{
+    height:25rem;
+}
+#searchHeading{
+    margin-left: 12.5%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(136, 191, 207, 0.753);
+  color:black;
+  text-align: center;
+
+}
