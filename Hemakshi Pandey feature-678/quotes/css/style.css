@@ -36,6 +36,38 @@ body {
 	}
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    height: auto;
+    width: 100vw;
+    background-color: #4e67f8;
+    box-shadow: 0px 3px 4px rgba(250, 248, 248, 0.8);
+    
+}
+
+  .fa {
+    padding: 0px 35px;
+    font-size: 35px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.fa:hover {
+    opacity: 1;
+}
+
+.fa-heart {
+    color: rgb(255, 255, 255);
+}
+
+.fa-pen-nib {
+	font-size: 3rem;
+}
+
 
 .container {
 	width: 600px;
