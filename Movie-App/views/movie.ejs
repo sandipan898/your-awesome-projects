@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Movie App</title>
+        <link rel="shortcut icon" type="image/jpg" href="./favicon.png"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="./stylesheets/style.css">
         
@@ -12,7 +13,7 @@
         <% data["results"].forEach((movie) => { %>
             <div class="card mb-5 w-75">
                 <div class="row no-gutters">
-                    <div class="col-md-4">
+                    <div class="col-md-4 div-ing">
                         <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2<%=movie["poster_path"] %>" alt="" class="card-img img-fluid">
                     </div>
     
@@ -23,9 +24,9 @@
                             <p class="card-text"><%= movie["overview"]%></p>
                             <hr>
                             <br>
-                            <p class="card-text"><b>Date Published:</b><%= movie["release_date"]%></p>
-                            <p class="card-text"><b>Total Votes:</b><%= movie["vote_count"]%></p>
-                            <p class="card-text"><b>Average Rating:</b><%= movie["vote_average"]%></p>
+                            <p class="card-text"><b>Date Published: </b><%= movie["release_date"]%></p>
+                            <p class="card-text"><b>Total Votes: </b><%= movie["vote_count"]%></p>
+                            <p class="card-text"><b>Average Rating: </b><%= movie["vote_average"]%></p>
                         </div>
                     </div>
                 </div>
@@ -34,7 +35,7 @@
             <div class="container">
         
             <div class="footer">
-                <b>Made By -> </b> Rohit Ray
+                <b>Made By -> </b> <a href="https://www.linkedin.com/in/rohitray042/">Rohit Ray</a>
         
         </div>
 
