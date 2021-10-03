@@ -12,8 +12,12 @@ body{
 .card{
     margin-left: 12.5%;
 }
+.card .div-ing {
+    padding: 2em;
+}
 .card-img{
     height:25rem;
+    border-radius: 5px;
 }
 #searchHeading{
     margin-left: 12.5%;
