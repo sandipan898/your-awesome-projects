@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  text-align: center;
+  margin: 20px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+
+}
+.template {
+  /* width: 33.333%; */
+  /* display: inline-block; */
+  margin: 1rem;
+}
+
+.template .image {
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  background-size: cover;
+  background-position: center;
+}
+.meme-conatainer {
+  text-align: center;
+}
+.meme img {
+  margin: 1%;
+  width: auto;
+  height: 300px;
+  border: 1px solid black;
+}
+input,
+button {
+  padding: 0.2%;
+  margin: 0.2%;
+}
