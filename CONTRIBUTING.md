@@ -14,6 +14,7 @@
 - ### Make a separate folder for your project and make your changes to that folder only.
 - If possible document your project.
 - Create Issues with a proper title. 
+- give a star to the repository.
 
 ## Get help from Guthub:
 
