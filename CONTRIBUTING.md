@@ -9,6 +9,7 @@
 
 ## Read the rules here:
 
+- *Create a separate folder for your project*
 - Any kind of projects with a purpose will be accepted.
 - Modification to existing projects will be accepted here.
 - ### Make a separate folder for your project and make your changes to that folder only.
