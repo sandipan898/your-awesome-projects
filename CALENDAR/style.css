@@ -3,6 +3,7 @@ body {
   margin-top: 50px;
   justify-content: center;
   background-color: #ffffff;
+  font-family: 'Satoshi', sans-serif;
 }
 button {
   width: 75px;
