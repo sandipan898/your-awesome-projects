@@ -1,0 +1,30 @@
+{
+	"theme_color": "#FFF",
+	"background_color": "#FFF",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": "/",
+	"name": "App Name | Tagline",
+	"short_name": "App Name",
+	"description": "Description",
+	"orientation": "portrait",
+	"display_mode": "fullscreen",
+	"icons": [
+		{
+			"src": "/icon.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color_in_manifest": true,
+	"background_color_in_manifest": true,
+	"display_in_manifest": true,
+	"scope_in_manifest": true,
+	"start_url_in_manifest": true,
+	"name_in_manifest": true,
+	"short_name_in_manifest": true,
+	"description_in_manifest": true,
+	"orientation_in_manifest": true,
+	"display_mode_in_manifest": true,
+	"icons_in_manifest": true
+}
