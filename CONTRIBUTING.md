@@ -10,6 +10,7 @@
 ## Read the rules here:
 
 - *Create a separate folder for your project*
+- Folder name should be in following format `your-awesome-project-1` all small caps.
 - Any kind of projects with a purpose will be accepted.
 - Modification to existing projects will be accepted here.
 - ### Make a separate folder for your project and make your changes to that folder only.
