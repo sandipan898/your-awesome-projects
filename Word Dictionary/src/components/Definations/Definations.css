@@ -1,0 +1,22 @@
+.definations{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+    height:50vh;
+    border-radius: 10px;
+    border:10px solid rgb(70, 0, 0);
+    padding:10px 20px;
+}
+.subTitle{
+    font-size:3vw ;
+    font-family: 'Montserrat', sans-serif;
+}
+.singleMean{
+    display: flex;
+    flex-direction: column;
+    padding:10px 20px;
+    margin : 10px 0px;
+    border-radius: 10px;
+}
