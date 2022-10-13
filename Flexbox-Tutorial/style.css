@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(38, 37, 37);
+    /* display: flex; */
+ 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: auto;
+    
+    /* justify-self: center;
+    align-self: center; */
+    margin-top: 30vh;
+   
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+    /*  
+
+   
+    /* justify-content: space-evenly; gives even space in both the sides */
+    /* justify-content: space-between; gives remaining space between two divs  */
+    /* justify-content: center; centeres elements irrespective of remaing space */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly;
+    flex-wrap: wrap; */
+    /* flex-wrap: wrap; doesnt reduce the size of content when size is reduced instead alignes the, accordingly */
+
+   
+    
+    background-color: white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-size: 2rem;
+    color: skyblue;
+    border:2px solid skyblue;
+    margin:10px;
+    background-color: hotpink;
+}
+.box1{
+    min-height: 80px;
+    /* flex-shrink: 0; */
+    /* flex-grow: 1;  */
+    /* flex-shrink: 0;doesnt let to shrink its size  */
+}
+.box2{
+    min-height: 120px;
+    /* flex-grow: 1;  */
+}
+.box3{
+    /* flex-grow: 1; grows the size of the container when there is an empty space available */
+    min-height:200px;
+    /* flex-shrink: 0; */
+    /* flex-grow: 1; */
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+
+}
+.button{
+    padding: 5px 10px;
+    border-radius: 10px ;
+    background-color: hotpink;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.button:hover{
+    background-color: rgb(217, 93, 155);
+}
+.title{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+}
