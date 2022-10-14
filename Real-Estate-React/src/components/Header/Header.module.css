@@ -1,0 +1,80 @@
+.headerButton:hover{
+color: blueviolet;
+background-color: rgb(226, 198, 253);
+}
+.headerButton{
+    height: 3rem;
+    width: 4rem;
+    border-radius: 12px;
+}
+
+a{
+    color:black !important;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100vw;
+    box-shadow: 0px 0px 2px 4px rgb(166, 169, 170);
+   
+
+}
+.headerButtonLogin{
+    box-shadow: 0 0 0.5px 2px rgb(226, 198, 253);
+    height: 2.5rem;
+    width: 5rem;
+    border-radius: 12px;
+    color: blueviolet;
+}
+.headerButtonSignUp{
+    height: 2.5rem;
+    width: 5rem;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(163, 64, 255);
+}
+.headerButtonSignUp:hover{
+    box-shadow: 0 0 0.5px 2px rgb(226, 198, 253);
+    background-color: white;
+    color: blueviolet;
+}
+.headerButtonLogin:hover{
+    color: white;
+    background-color: rgb(163, 64, 255);
+}
+.collapsableMenu{
+    display: none;
+
+}
+.buttongroup{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 30vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+}
+.collapsedButtons{
+    box-shadow: 0 0 0.5px 2px rgb(226, 198, 253);
+   padding: 15px;
+    border-radius: 12px;
+    color: blueviolet;
+}
+.collapsedButtons:hover{
+    color: white;
+    background-color: rgb(163, 64, 255);
+}
+@media (max-width:820px) {
+    .menu{
+        display: none;
+    }
+    .collapsableMenu{
+        display: flex;
+        align-items: center;
+    }
+    .headerButton{
+        display: none;
+    }
+}

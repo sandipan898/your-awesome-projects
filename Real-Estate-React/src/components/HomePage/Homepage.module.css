@@ -1,0 +1,13 @@
+
+.search{
+    height: 3rem;
+    width: 5rem;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(163, 64, 255);
+}
+.search:hover{
+    box-shadow: 0 0 0.5px 2px rgb(226, 198, 253);
+    background-color: white;
+    color: blueviolet;
+}
