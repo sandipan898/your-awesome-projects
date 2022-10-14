@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.textBox{
+    border: 2px solid black;
+    /* background-color: rgba(142, 245, 175, 0.939); */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.heading{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'PLAYFAIR DISPLAY','Courier New', Courier, monospace;
+    /* color: cyan; */
+}
+
+.hidden{
+    display: none;
+}
+
+.navbar{
+    background-color: rgb(28, 231, 231);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.navbar h1{
+    font-family: 'PLAYFAIR DISPLAY','Courier New', Courier, monospace;
+    /* margin-right: 45%; */
+    align-self: center;
+
+}
+
+.taskList{
+    width: 100%;
+    flex: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.listItem{
+    /* width: 100%; */
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 2%;
+    padding: 5px;
+    /* background-color: aquamarine; */
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'PLAYFAIR DISPLAY','Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+
+
+.content{
+    flex-grow: 1;
+    margin-left: 1%;
+}
+
+.set{
+    margin: auto;
+}
+
+
+.btn{
+    border: 1px solid blue;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.credits{
+    font-family: 'PLAYFAIR DISPLAY','Courier New', Courier, monospace;
+}
