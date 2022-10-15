@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Sizzle</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous"> -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="body">
+        <button id="startBtn" onClick="startGame()">Start Game</button>
+        <div id="scoreBox">Score: 0</div>
+        <div id="highScoreBox">Highest Score: 0</div>
+        <div id="board"></div>
+        <div id="controls" style="text-align:center; width:500px;">
+            <button onclick="arrowUpBtn()"> <i class='bx bxs-up-arrow-alt'></i></button><br><br>
+            <button onclick="arrowLeftBtn()"> <i class='bx bxs-left-arrow-alt' ></i></button>
+            <button onclick="arrowRightBtn()"> <i class='bx bxs-right-arrow-alt' ></i></button><br><br>
+            <button onclick="arrowDownBtn()"> <i class='bx bxs-down-arrow-alt' ></i></button>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>
