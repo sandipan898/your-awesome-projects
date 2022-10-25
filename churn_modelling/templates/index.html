@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+   <!-- <link rel="stylesheet" href="../static/style.css"> -->
+
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+   <title>Bank Customers Churn Prediction</title>
+</head>
+
+<body>
+   <center>
+      <h2 class="prediction_text">{{ prediction_text }}</h2>
+   </center>
+   <form action="/predict" method="post">
+      <center>
+         <h2>Please enter details</h2>
+      </center>
+  
+      <div class="block geography">
+         <label for="geography"><h4>Geography</h4></label>
+         <select name="geography" id="geography">
+            <option value="germany">Germany</option>
+            <option value="spain">Spain</option>
+            <option value="france">France</option>
+            <option value="others">Others</option>
+         </select>
+      </div>
+
+      <div class="block sex">
+         <h4>Sex</h4>
+         <input type="radio" id="female" name="sex" value="female">
+         <label for="female">Female</label>
+         <input type="radio" id="male" name="sex" value="male">
+         <label for="male">Male</label>
+         <input type="radio" id="custom" name="sex" value="custom">
+         <label for="others">Custom</label>
+      </div><br>
+
+      <div class="block age">
+         <label for="age"><h4>Age</h4></label>
+         <input type="text" name="age" id="age">
+      </div>
+
+      <div class="block credit-card">
+         <h4>Do this client have a credit card?</h4>
+         <input type="radio" id="cr-yes" name="cr-yes" value="yes">
+         <label for="cr-yes">Yes</label>
+         <input type="radio" id="cr-yes" name="cr-yes" value="no">
+         <label for="cr-no">No</label>
+      </div>
+
+      <div class="block active-member">
+         <h4>Is this client an active member?</h4>
+         <input type="radio" id="active-yes" name="active" value="yes">
+         <label for="active-yes">Yes</label>
+         <input type="radio" id="active-no" name="active" value="no">
+         <label for="active-no">No</label>
+      </div><br>
+
+      <div class="block credit-score">
+         <h4>Credit score</h4>
+         <label for="creditscore">Amount of Credit Score:</label>
+         <input type="text" name="creditscore" id="creditscore">
+      </div>
+
+      <div class="block tenure">
+         <h4>Tenure</h4>
+         <label for="tenure">Number of years for which the customer has been with the bank: </label>
+         <input type="text" name="tenure" id="tenure">
+      </div>
+
+      <div class="block balance">
+         <h4>Bank Balance</h4>
+         <label for="balance">Bank balance of the customer: </label>
+         <input type="text" name="balance" id="balance">
+      </div>
+
+      <div class="block numofproducts">
+         <h4>Number of Product</h4>
+         <label for="numofproducts">Number of bank products the customer is utilising: </label>
+         <input type="text" name="numofproducts" id="numofproducts">
+      </div>
+
+      <div class="block estimatedsalary">
+         <h4>Salary</h4>
+         <label for="estimatedsalary">Estimated salary of the customer in Dollars:</label>
+         <input type="text" name="estimatedsalary" id="estimatedsalary">
+      </div>
+
+     
+      <center>
+         <button type="submit">Submit form</button>
+      </center>
+
+   </form>
+
+</body>
+
+</html>
