@@ -1,0 +1,8 @@
+Numerical Feature importance
+
+- credit-score not too valuable as a feature
+- age is really important!
+- tenure not too important
+- balance seem to be imprtant - slightly good
+- *numofproducts is really weird, it shoots up and down going from good model to bad model or bad model to good model. Might delete feature...
+- *estimatedsalary is really acting like a baseline model. not good, not bad
